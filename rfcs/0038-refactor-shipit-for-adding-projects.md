@@ -34,6 +34,7 @@ Refactoring shipit to allow adding new projects without changes to the shipit so
 - We need to re-design the shipit frontend a bit (we could add a product selection dropdown)
 - We need to add pages and APIs to add, delete and update product configuration
 - We could add the APIs and use them without a UI, sending them posts through an HTTP client like Postman
+- What would the APIs and product database schema look like?
 
 ## Open Questions
 

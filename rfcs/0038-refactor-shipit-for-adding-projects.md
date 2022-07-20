@@ -16,7 +16,7 @@ Refactoring shipit to allow new projects without changes to the shipit source co
 - Mozilla addons & Firefox products
 - The Firefox products are Firefox Desktop, Firefox Developer Edition, codename pinebuild, Fenix, Android Components, and Focus (for Android)
 - The product and addon releases have phases
-    - For some reason, xpi and regular (Firefox) product releases are two different models/tables in the database. I need to investigate why
+- For some reason, xpi and regular (Firefox) product releases are two different models/tables in the database. I need to investigate why
 - Each release phase represents a taskgraph
 - i.e., shipit is a web service that offers a user interface for relman to schedule & run the taskgraphs for each product/addon
 - The configuration for Firefox products is hardcoded in the shipit frontend & backend

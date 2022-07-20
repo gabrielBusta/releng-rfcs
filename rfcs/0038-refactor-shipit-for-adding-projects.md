@@ -14,7 +14,7 @@ Refactoring shipit to allow adding new projects without changes to the shipit so
 ## Details
 - Right now, there are two kinds of products using shipit releases
 - Mozilla addons & Firefox products
-- The Firefox products are Firefox Desktop, Firefox Developer Edition, codename pinebuild, Fenix, Android Components, and Focus (for Android)
+- The Firefox products are Firefox Desktop, Firefox Developer Edition, Fenix, Android Components, and Focus (for Android)
 - The product and addon releases have phases
 - Each release phase represents a taskgraph
 - i.e., shipit is a web service that offers a user interface for relman to schedule & run the taskgraphs for each product/addon

@@ -6,10 +6,11 @@ Onboarding new products onto shipit releases requires making changes to the [shi
 
 ## Motivation
 
-Refactoring shipit to allow adding new projects without changes to the shipit source code would reduce the time and effort necessary to get new products shipping with shipit. Currently, adding custom code for each new project could take 2-3 months, quickly adding up to one year of people weeks to add 4-6 projects.
+Refactoring shipit to allow adding new projects without changes to the shipit source code would reduce the time and effort necessary to get the latest Mozilla products shipping with shipit. Currently, adding custom code for each new project could take 2-3 months, quickly adding up to one year of people weeks to add 4-6 projects.
 
 ## Out of Scope
 - Implementing a generic way to support product addons
+- Implementing a generic way to expose phase artifacts in shipit
 
 ## Details
 - Right now, there are two kinds of products using shipit releases
@@ -28,9 +29,11 @@ Refactoring shipit to allow adding new projects without changes to the shipit so
 - The reason xpi releases are in a different table is that addons need to store two revisions. The revision of the addon itself and the revision of the addon configuration in xpi-manifest
 - The release table is a better starting point for a generic releases table that can support products besides Firefox
 - We need to refactor shipit, so every bit of configuration related to products is in the database
-- We need to refactor the frontend to increase the re-usability of some of the views
+- We need to refactor the frontend to increase the re-usability of the release/phase views
+- We could add a way to configure "phase artifacts" for the products (maybe a pop-up of artifact links on the phases?)
 - We need to re-design the shipit frontend a bit (we could add a product selection dropdown)
 - We need to add pages and APIs to add, delete and update product configuration
+- We could add the APIs and use them without a UI, sending them posts through an HTTP client like Postman
 
 ## Open Questions
 

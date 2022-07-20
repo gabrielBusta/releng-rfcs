@@ -1,4 +1,4 @@
-# RFC 38 - Refactor shipit to allow adding new projects without custom code or deployments
+# RFC 38 - Refactor shipit to allow adding new projects without modifying the shipit source code
 
 ## Summary
 

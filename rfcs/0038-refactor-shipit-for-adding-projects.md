@@ -6,7 +6,7 @@ Onboarding new products onto shipit releases requires making changes to the [shi
 
 ## Motivation
 
-Refactoring shipit to allow new projects without changes to the shipit source code would reduce the time and effort necessary to get new shipping on with shipit. Currently, adding custom code for each new project could take 2-3 months, quickly adding up to one year of people weeks to add 4-6 projects.
+Refactoring shipit to allow adding new projects without changes to the shipit source code would reduce the time and effort necessary to get new products shipping with shipit. Currently, adding custom code for each new project could take 2-3 months, quickly adding up to one year of people weeks to add 4-6 projects.
 
 ## Out of Scope
 - Implementing a generic way to support product addons

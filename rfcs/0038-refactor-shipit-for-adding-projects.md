@@ -30,6 +30,7 @@ Refactoring shipit to allow new projects without changes to the shipit source co
 - We need to refactor shipit, so every bit of configuration related to products is in the database
 - We need to refactor the frontend to increase the re-usability of some of the views
 - We need to re-design the shipit frontend a bit (we could add a product selection dropdown)
+- We need to add pages and APIs to add, delete and update product configuration
 
 ## Open Questions
 
